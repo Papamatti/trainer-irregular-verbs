@@ -3,7 +3,7 @@
 #
 #       trainer-irregular-verbs.py
 #       
-#       Copyright 1998-2014 Papamatti <matti_lx@mailbox.org>
+#       Copyright 1998-2014 CassieMoondust <cassie_lx@secure.mailbox.org>
 #       
 #       This program is free software; you can redistribute it and/or modify
 #       it under the terms of the GNU General Public License as published by
@@ -298,7 +298,7 @@ def makeform(root, eingabefelder):
 
 def AboutWindow():
 	global root,version,prdatum
-	explanation = "Trainer: Irregular verbs\nVersion " + version + " (" + prdatum + ")\n\n(c) 1998-2013 Matthias Freund\nLizenz: GPLv3 oder höher"
+	explanation = "Trainer: Irregular verbs\nVersion " + version + " (" + prdatum + ")\n\n(c) 1998-2013 Cassandra Freund\nLizenz: GPLv3 oder höher"
 	tkmb.showinfo('Über dieses Programm', explanation)
 	return
 
